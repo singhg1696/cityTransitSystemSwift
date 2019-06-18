@@ -1,11 +1,9 @@
 //
-//  main.swift
+//  Rider.swift
 //  cityTransitSystemSwift
 //
-//  Created by Neeraj Prasher on 2019-06-17.
+//  Created by Neeraj Prasher on 2019-06-18.
 //  Copyright © 2019 lambton. All rights reserved.
 //
 
 import Foundation
-
-

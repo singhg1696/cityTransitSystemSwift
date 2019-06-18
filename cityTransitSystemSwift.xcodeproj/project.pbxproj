@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4CAA0EEF22B846A6004A8209 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA0EEE22B846A6004A8209 /* main.swift */; };
+		4CAA0F0F22B94C48004A8209 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA0F0E22B94C48004A8209 /* Users.swift */; };
+		4CAA0F1122B94D26004A8209 /* Rider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA0F1022B94D26004A8209 /* Rider.swift */; };
+		4CAA0F1422B94EE8004A8209 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA0F1322B94EE8004A8209 /* Display.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		4CAA0EEB22B846A6004A8209 /* cityTransitSystemSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cityTransitSystemSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CAA0EEE22B846A6004A8209 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4CAA0F0E22B94C48004A8209 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		4CAA0F1022B94D26004A8209 /* Rider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rider.swift; sourceTree = "<group>"; };
+		4CAA0F1322B94EE8004A8209 /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,20 @@
 		4CAA0EED22B846A6004A8209 /* cityTransitSystemSwift */ = {
 			isa = PBXGroup;
 			children = (
+				4CAA0F1222B94D40004A8209 /* Protocols */,
 				4CAA0EEE22B846A6004A8209 /* main.swift */,
+				4CAA0F0E22B94C48004A8209 /* Users.swift */,
+				4CAA0F1022B94D26004A8209 /* Rider.swift */,
 			);
 			path = cityTransitSystemSwift;
+			sourceTree = "<group>";
+		};
+		4CAA0F1222B94D40004A8209 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4CAA0F1322B94EE8004A8209 /* Display.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CAA0F0F22B94C48004A8209 /* Users.swift in Sources */,
 				4CAA0EEF22B846A6004A8209 /* main.swift in Sources */,
+				4CAA0F1422B94EE8004A8209 /* Display.swift in Sources */,
+				4CAA0F1122B94D26004A8209 /* Rider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
