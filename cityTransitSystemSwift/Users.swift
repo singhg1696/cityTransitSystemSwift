@@ -7,9 +7,9 @@
 //
 
 import Foundation
-class Users
+class Users : Display
 {
-    var id: String
+    var id: String?
     private var _password = String()
     
     init()
@@ -24,9 +24,14 @@ class Users
         }
     }
     
-    init(id: String, password: String) {
+    init(id: String, password: String)
+    {
         self.id = id
         self._password = password
+    }
+    
+    func Display() {
+        print(self.id ?? "No Id Given")
     }
     
 }
