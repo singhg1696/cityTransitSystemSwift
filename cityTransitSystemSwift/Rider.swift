@@ -25,11 +25,9 @@ class Rider: Users
         super.init()
     }
     
-    override func Display() {
+    override func Display()
+    {
         super.Display()
-        func Display()
-        {
-            print(self.name ?? "No Name Given", self.birth ?? "No birthdate given", self.email ?? "No email given", self.contact ?? "No contact number given", self.card ?? "No card held")
-        }
+        print(self.name ?? "No Name Given", self.birth ?? "No birthdate given", self.email ?? "No email given", self.contact ?? "No contact number given", self.card ?? "No card held")
     }
 }
