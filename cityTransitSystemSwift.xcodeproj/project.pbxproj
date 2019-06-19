@@ -11,6 +11,7 @@
 		4CAA0F0F22B94C48004A8209 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA0F0E22B94C48004A8209 /* Users.swift */; };
 		4CAA0F1122B94D26004A8209 /* Rider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA0F1022B94D26004A8209 /* Rider.swift */; };
 		4CAA0F1422B94EE8004A8209 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA0F1322B94EE8004A8209 /* Display.swift */; };
+		4CAA0F2D22B9B93E004A8209 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA0F2C22B9B93E004A8209 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		4CAA0F0E22B94C48004A8209 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		4CAA0F1022B94D26004A8209 /* Rider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rider.swift; sourceTree = "<group>"; };
 		4CAA0F1322B94EE8004A8209 /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		4CAA0F2C22B9B93E004A8209 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				4CAA0EEE22B846A6004A8209 /* main.swift */,
 				4CAA0F0E22B94C48004A8209 /* Users.swift */,
 				4CAA0F1022B94D26004A8209 /* Rider.swift */,
+				4CAA0F2C22B9B93E004A8209 /* Card.swift */,
 			);
 			path = cityTransitSystemSwift;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				4CAA0F0F22B94C48004A8209 /* Users.swift in Sources */,
 				4CAA0EEF22B846A6004A8209 /* main.swift in Sources */,
+				4CAA0F2D22B9B93E004A8209 /* Card.swift in Sources */,
 				4CAA0F1422B94EE8004A8209 /* Display.swift in Sources */,
 				4CAA0F1122B94D26004A8209 /* Rider.swift in Sources */,
 			);
