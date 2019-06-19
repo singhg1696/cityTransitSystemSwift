@@ -1,5 +1,5 @@
 //
-//  Display.swift
+//  Admin.swift
 //  cityTransitSystemSwift
 //
 //  Created by Neeraj Prasher on 2019-06-18.
@@ -7,7 +7,3 @@
 //
 
 import Foundation
-
-protocol Display {
-    func Display()
-}
