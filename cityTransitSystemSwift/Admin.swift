@@ -9,5 +9,18 @@
 import Foundation
 class Admin
 {
+    var adminName : String
+    var adminEmail : String
+
+init()
+{
+    self.adminName = String()
+    self.adminEmail = String()
+}
     
+    
+    func display()
+    {
+        
+    }
 }
