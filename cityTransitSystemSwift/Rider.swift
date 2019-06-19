@@ -14,7 +14,7 @@ class Rider: Users
     var birth: Date?
     var email: String?
     var contact: String?
-    var card: Dictionary<String, Float>
+    var card: Dictionary<String, Float>?
     
     override init() {
         self.name = String()
@@ -25,5 +25,11 @@ class Rider: Users
         super.init()
     }
     
-    
+    override func Display() {
+        super.Display()
+        func Display()
+        {
+            print(self.name ?? "No Name Given", self.birth ?? "No birthdate given", self.email ?? "No email given", self.contact ?? "No contact number given", self.card ?? "No card held")
+        }
+    }
 }
