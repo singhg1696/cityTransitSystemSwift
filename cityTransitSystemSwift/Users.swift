@@ -29,5 +29,4 @@ class Users
         self._password = password
     }
     
-    
 }
