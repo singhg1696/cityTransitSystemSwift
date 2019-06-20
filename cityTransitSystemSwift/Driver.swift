@@ -17,6 +17,19 @@ class Driver: Users
     var driverContact: Int?
     var driverEmail: String?
     private var _driverSalary: Int?
+    var driverSalary: Int?
+    {
+        get{
+            return self._driverSalary
+        }
+    }
     private var _driverBirthDate: String?
-   
+    var driverBirthDate: String?
+    {
+        get{
+            return self._driverBirthDate
+        }
+    }
+    //protocols
+    //extension
 }
