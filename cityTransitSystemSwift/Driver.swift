@@ -9,9 +9,14 @@
 import Foundation
 
 
-
 class Driver: Users
 {
     
-    
+    // *********Declaring Variables**********//
+    var driverName: String?
+    var driverContact: Int?
+    var driverEmail: String?
+    private var _driverSalary: Int?
+    private var _driverBirthDate: String?
+   
 }
