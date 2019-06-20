@@ -12,7 +12,7 @@ import Foundation
 class Driver: Users
 {
     
-    // *********Declaring Variables**********//
+            // *********Declaring Variables**********//
     var driverName: String?
     var driverContact: Int?
     var driverEmail: String?
@@ -30,6 +30,13 @@ class Driver: Users
             return self._driverBirthDate
         }
     }
-    //protocols
-    //extension
+    var driverAddress: String?
+    
+    override init() {
+        self.driverName = String()
+        self.driverContact = Int()
+        self.driverEmail = String()
+        self.driverBirthDate = String()
+        self.driverAddress = String()
+    }
 }
